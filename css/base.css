@@ -44,4 +44,10 @@ body {
     padding-left: calc((100% - 940px) / 2);
     padding-right: calc((100% - 940px) / 2);
   }
+  .botao:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .3s;
+    background-color: #e1d9d991;
+  }
 }
